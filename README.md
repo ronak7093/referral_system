@@ -4,8 +4,6 @@
 
 </p>
 
-
-
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
