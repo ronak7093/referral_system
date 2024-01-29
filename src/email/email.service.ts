@@ -23,7 +23,7 @@ export class EmailService {
             console.log(err);
           } else {
             let mailOptions = {
-              from: "ronak.s@upsquare.in",
+              from: process.env.EMAIL,
               to: receiver,
               subject: subject,
               html: data,
