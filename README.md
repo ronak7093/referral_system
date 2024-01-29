@@ -1,7 +1,5 @@
-<br/>
 <p align="center">
   <h3 align="center">Referral system</h3>
-
 </p>
 
 ## Table Of Contents
