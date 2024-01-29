@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Inline CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      background-color: #ffffff;
+      max-width: 600px;
+      margin: 150px auto;
+      padding: 40px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+    color: #333;
+    text-align: left;
+    font-family: emoji;
+    }
+
+    p {
+      color: #666;
+    }
+    
+    
+    .receiptName{
+        text-align: left;
+        font-family: emoji;
+        font-weight: bold;
+    }
+    .referralName{
+        text-align: left;
+        font-family: emoji;
+        font-weight: bold;
+    }
+
+    .referralNote{
+        text-align: left;
+        font-family: emoji;
+        font-weight: bold;
+    }
+
+    .regards{
+      font-family: emoji;
+      font-weight: bold;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+    </head>
+    <body>
+  <div class="container">
+    <h1>Referral</h1>
+
+    <div class="receiptName">
+    <p>Dear <%= content.referralName, %></p>
+    </div>
+
+    <div class="referralName">
+        <p>You have been referred by <%= content.name %> to our platform.</p>
+    </div>
+    <div class="referralNote">
+    <p>ReferralNote: <%= content.Note %></p>
+    </div></br>
+    <div class="regards">    
+      <p>Thank you for Joining our Referral!</p>&nbsp;
+    </div>
+  </div>
+</body>
+</html>
+
